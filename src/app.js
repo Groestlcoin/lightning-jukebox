@@ -17,7 +17,7 @@ const [ amount, currency='BTC' ] = (process.env.PRICE || '0.0001').split(' ', 2)
 
 app.set('port', process.env.PORT || 6100)
 app.set('host', process.env.HOST || 'localhost')
-app.set('title', process.env.TITLE || 'Lightning Jukebox')
+app.set('title', process.env.TITLE || 'Groestlcoin Lightning Jukebox')
 app.set('trust proxy', process.env.PROXIED || 'loopback')
 app.set('views', path.join(__dirname, '..', 'views'))
 app.set('view engine', 'pug')

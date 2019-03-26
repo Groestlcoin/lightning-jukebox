@@ -73,7 +73,7 @@ $ jukeboxd --help
 
     -P, --price <price>         price to play music [default: 0.0001 GRS]
     -m, --theme <name>          pick theme from bootswatch.com [default: darkly]
-    -l, --title <name>          website title [default: Lightning Jukebox]
+    -l, --title <name>          website title [default: Groestlcoin Lightning Jukebox]
 
     -p, --port <port>           http server port [default: 9115]
     -i, --host <host>           http server listen address [default: 127.0.0.1]
