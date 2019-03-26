@@ -5,10 +5,10 @@ const args = require('meow')(`
       $ jukeboxd [options]
 
     Options
-      -c, --charge-url <url>      lightning charge server url [default: http://localhost:9112]
+      -c, --charge-url <url>      Groestlcoin lightning charge server url [default: http://localhost:9112]
       -t, --charge-token <token>  lightning charge access token [required]
 
-      -P, --price <price>         price to play music [default: 0.0001 BTC]
+      -P, --price <price>         price to play music [default: 0.0001 GRS]
       -m, --theme <name>          pick theme from bootswatch.com [default: darkly]
       -l, --title <name>          website title [default: Lightning Jukebox]
 

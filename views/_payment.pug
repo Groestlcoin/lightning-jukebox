@@ -6,10 +6,10 @@
      .modal-body.text-center
        h5 Pay with Lightning
        if msatoshi
-         if quoted_currency && quoted_currency != 'BTC'
-           p.font-weight-light.small #{ quoted_amount } #{ quoted_currency } ≈ #{ msat2sat(msatoshi, true) } satoshis
+         if quoted_currency && quoted_currency != 'GRS'
+           p.font-weight-light.small #{ quoted_amount } #{ quoted_currency } ≈ #{ msat2sat(msatoshi, true) } gro
          else
-           p.font-weight-light.small #{ msat2sat(msatoshi, true) } satoshis
+           p.font-weight-light.small #{ msat2sat(msatoshi, true) } gro
        img.d-block.w-100.mb-3(src=qr)
        if !hide_payreq
          .input-group

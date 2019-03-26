@@ -1,5 +1,5 @@
 {
-  "name": "lightning-jukebox",
+  "name": "groestlcoin-lightning-jukebox",
   "version": "0.0.1",
   "description": "A Lightning powered Jukebox",
   "bin": {
@@ -14,9 +14,9 @@
     "dist/**",
     "views/**"
   ],
-  "repository": "https://github.com/shesek/lightning-jukebox.git",
+  "repository": "https://github.com/groestlcoin/lightning-jukebox.git",
   "keywords": [
-    "bitcoin",
+    "groestlcoin",
     "lightning",
     "lightning-charge",
     "jukebox",

@@ -5,22 +5,22 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![IRC](https://img.shields.io/badge/chat-on%20freenode-brightgreen.svg)](https://webchat.freenode.net/?channels=lightning-charge)
 
-A Lightning powered Jukebox. Pay with Bitcoin to choose your music from YouTube.
+A Lightning powered Jukebox. Pay with Groestlcoin to choose your music from YouTube.
 
 [See it in action on YouTube](https://www.youtube.com/watch?v=AgGYpFJsh24)
 
-Powered by :zap: [Lightning Charge](https://github.com/ElementsProject/lightning-charge)
+Powered by :zap: [Groestlcoin Lightning Charge](https://github.com/groestlcoin/groestlcoin-lightning-charge)
 
 ## HOWTO
 
-1. [Setup Lightning Charge](https://github.com/ElementsProject/lightning-charge/blob/master/README.md#getting-started).
+1. [Setup Lightning Charge](https://github.com/groestlcoin/groestlcoin-lightning-charge/blob/master/README.md#getting-started).
 
 2. Install Lightning Jukebox and start `jukeboxd`:
 
    ```bash
    $ npm install -g lightning-jukebox
 
-   $ jukeboxd --charge-token mySecretToken --price '0.0001 BTC'
+   $ jukeboxd --charge-token mySecretToken --price '0.0001 GRS'
    Jukebox server running on http://localhost:6100
    ```
 
@@ -35,7 +35,7 @@ Powered by :zap: [Lightning Charge](https://github.com/ElementsProject/lightning
 
    <img src="https://i.imgur.com/l9PNsdS.png" width="47%"></img>
 
-4. Make the payment page (`http://localhost:6100/pay`) available over the internet or set it up on a local device, like a tablet, near 
+4. Make the payment page (`http://localhost:6100/pay`) available over the internet or set it up on a local device, like a tablet, near
    the jukebox. The payment page allows users to pay for music selection.
 
    <img src="https://i.imgur.com/H9kFDQW.png" width="47%"></img>
@@ -68,10 +68,10 @@ $ jukeboxd --help
     $ jukeboxd [options]
 
   Options
-    -c, --charge-url <url>      lightning charge server url [default: http://localhost:9112]
+    -c, --charge-url <url>      Groestlcoin lightning charge server url [default: http://localhost:9112]
     -t, --charge-token <token>  lightning charge access token [required]
 
-    -P, --price <price>         price to play music [default: 0.0001 BTC]
+    -P, --price <price>         price to play music [default: 0.0001 GRS]
     -m, --theme <name>          pick theme from bootswatch.com [default: darkly]
     -l, --title <name>          website title [default: Lightning Jukebox]
 
